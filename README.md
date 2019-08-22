@@ -8,3 +8,14 @@ I used this image for mongodb:
 # Data 
 The data can be found in the folder data -> airports.json
 
+# Call example
+POST - http://localhost:3000/airports
+Body: 
+````
+{
+	"latitude": 40.6913403,
+	"longitude": -74.1006117,
+	"area": 300
+}
+````
+
